@@ -1,0 +1,29 @@
+node_modules/
+.env
+test-results/
+playwright-report/
+work/
+
+# Private Windows-encrypted provider credential
+data/euler-key.dpapi.json*
+
+# Respaldo público: preservar sólo fixtures seleccionados explícitamente en Git.
+.env*
+!.env.example
+node_modules/
+connector/node_modules/
+dist/
+work/
+temp/
+logs/
+test-results/
+playwright-report/
+coverage/
+.profile*/
+Mis-skins/
+data*/
+*.dpapi.json*
+*.log
+docs/rowshow-polish/*.json
+docs/rowshow-polish/*.png
+docs/rowshow-polish/*.webm

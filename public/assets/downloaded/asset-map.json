@@ -1,0 +1,109 @@
+{
+  "skins": {
+    "source": "https://skinsdb.terraqueststudios.net/",
+    "files": "/skins/downloaded/manifest.json",
+    "pngModified": false
+  },
+  "sky": {
+    "sun.png": "Faithful 32x / assets/minecraft/textures/environment/sun.png",
+    "moon_phases.png": "Faithful 32x / assets/minecraft/textures/environment/moon_phases.png",
+    "clouds.png": "Pixel Perfection CE / assets/fabricskyboxes/sky/cloudbox_east.png",
+    "stars.png": "Pixel Perfection CE / assets/fabricskyboxes/sky/nightbox2_top.png"
+  },
+  "models": [
+    {
+      "kind": "pig",
+      "source": "pig.blend",
+      "selectedMeshes": 7,
+      "textures": [
+        "mobs_mc_pig.png"
+      ],
+      "clipFrames": [
+        0,
+        40
+      ],
+      "bones": 7,
+      "embeddedScripts": 0
+    },
+    {
+      "kind": "cow",
+      "source": "cow+mooshroom.blend",
+      "selectedMeshes": 9,
+      "textures": [
+        "mobs_mc_cow.png"
+      ],
+      "clipFrames": [
+        0,
+        40
+      ],
+      "bones": 11,
+      "embeddedScripts": 0
+    },
+    {
+      "kind": "chicken",
+      "source": "chicken.blend",
+      "selectedMeshes": 14,
+      "textures": [
+        "mobs_mc_chicken.png"
+      ],
+      "clipFrames": [
+        0,
+        20
+      ],
+      "bones": 10,
+      "embeddedScripts": 0
+    },
+    {
+      "kind": "creeper",
+      "source": "creeper.blend",
+      "selectedMeshes": 6,
+      "textures": [
+        "creeper.png"
+      ],
+      "clipFrames": [
+        0,
+        40
+      ],
+      "bones": 6,
+      "embeddedScripts": 0
+    },
+    {
+      "kind": "sheep",
+      "source": "sheep.blend",
+      "selectedMeshes": 12,
+      "textures": [
+        "mobs_mc_sheep.png",
+        "mobs_mc_sheep_fur.png"
+      ],
+      "clipFrames": [
+        0,
+        40
+      ],
+      "bones": 6,
+      "embeddedScripts": 0
+    },
+    {
+      "kind": "spider",
+      "source": "spider.blend",
+      "selectedMeshes": 11,
+      "textures": [
+        "mobs_mc_spider.png"
+      ],
+      "clipFrames": [
+        0,
+        40
+      ],
+      "bones": 11,
+      "embeddedScripts": 0
+    }
+  ],
+  "security": {
+    "pngSignatureCrcDecode": true,
+    "noTrailingPayload": true,
+    "blendAutoExecution": false,
+    "blendEmbeddedTexts": 0,
+    "noDownloadedScriptsExecuted": true,
+    "antivirusSignaturesScan": false,
+    "antivirusReason": "Microsoft Defender cmdlets, engine executable and a registered antivirus provider were unavailable; no clean antivirus verdict is claimed."
+  }
+}

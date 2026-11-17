@@ -1,0 +1,525 @@
+{
+  "generatedArt": false,
+  "files": [
+    {
+      "file": "assets/downloaded/asset-map.json",
+      "sha256": "f441d17577814edbbf453814a93c898aa66da75a08ab573cf2ed51fdeb37d88f",
+      "bytes": 2567
+    },
+    {
+      "file": "assets/downloaded/CREDITOS.html",
+      "sha256": "0976670ea6ccd24e48e1117569bb8a519f5fb9e84aaf8a56932fabca8220dbf3",
+      "bytes": 11058
+    },
+    {
+      "file": "assets/downloaded/Fuentes-modelos.zip",
+      "sha256": "ad5d5b81f02f39bd2c20d4c608ae3022ca64a211bd966b8b725f27a85fa30783",
+      "bytes": 527034
+    },
+    {
+      "file": "assets/downloaded/licenses/22i-GPL-3.0.txt",
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+      "bytes": 35141
+    },
+    {
+      "file": "assets/downloaded/licenses/Faithful-LICENSE.txt",
+      "sha256": "3526ffe2fc0bdb57ec9fdf227f7de72cb15df9ccc940f79d2e60bafe5d3254c6",
+      "bytes": 4189
+    },
+    {
+      "file": "assets/downloaded/licenses/PixelPerfection-CC-BY-SA-4.0.md",
+      "sha256": "ccf0e8ce183761bf82700126cc45a4e907b2cede024e65e3fef5c2338b9b7063",
+      "bytes": 18625
+    },
+    {
+      "file": "assets/downloaded/licenses/VoxeLibre-MEDIA.md",
+      "sha256": "bee9b7368e4c6b15734463be19e72ccbf85ede1266c4311359dee41a8eb13326",
+      "bytes": 15528
+    },
+    {
+      "file": "assets/downloaded/mobs/chicken.glb",
+      "sha256": "d5aebce4cf15cbd3453ec033865b56ae590bcef804846c4d0908007d70e2ce84",
+      "bytes": 22808
+    },
+    {
+      "file": "assets/downloaded/mobs/cow.glb",
+      "sha256": "140588bcaa192d45831dc7fa644b78586b67dc7c1dc322f7b8d226f1f351a3e1",
+      "bytes": 27096
+    },
+    {
+      "file": "assets/downloaded/mobs/creeper.glb",
+      "sha256": "c4bf78a5b028841a879b9cc7cfb3f7f0619336d46004f0baa0a56f04da56ed48",
+      "bytes": 16620
+    },
+    {
+      "file": "assets/downloaded/mobs/pig.glb",
+      "sha256": "eacfe238d3f5ade8b96f62c7022bc417c3379c81e97adf2459c5cad2e70e7384",
+      "bytes": 19440
+    },
+    {
+      "file": "assets/downloaded/mobs/sheep.glb",
+      "sha256": "115edc09431104ae599404a73bcccc16c41d06ecd17f6f84fb0a370871c43343",
+      "bytes": 30620
+    },
+    {
+      "file": "assets/downloaded/mobs/spider.glb",
+      "sha256": "c1343b7b9870538069eb4f209aba35e8e66948518a6e20d956121bace4ab603b",
+      "bytes": 34640
+    },
+    {
+      "file": "assets/downloaded/sky/clouds.png",
+      "sha256": "237190be0e85969ab4097f6a39de502f019b129caca67fcfc4d6f4c69eadd7ec",
+      "bytes": 3945
+    },
+    {
+      "file": "assets/downloaded/sky/moon_phases.png",
+      "sha256": "0d409831798ada34a995ae5a034b8b418e4b0d8d2c9ddf280bdc5ec4e8cc30f8",
+      "bytes": 2995
+    },
+    {
+      "file": "assets/downloaded/sky/stars.png",
+      "sha256": "3aff8ae6286a2065f4256e5c460c36ce02385399c8187259f072c4b5c14aba2a",
+      "bytes": 5118
+    },
+    {
+      "file": "assets/downloaded/sky/sun.png",
+      "sha256": "1d5a4f8239f3ec96620306f9081e94d6a8910d28363ff51791aa7260030a6a76",
+      "bytes": 911
+    }
+  ],
+  "sources": [
+    {
+      "category": "models",
+      "file": "LICENSE",
+      "repo": "22i/minecraft-voxel-blender-models",
+      "commit": "51527b4b5bceeb7a6de7e1f89edcccc87d904662",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/22i/minecraft-voxel-blender-models/51527b4b5bceeb7a6de7e1f89edcccc87d904662/LICENSE",
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+      "bytes": 35141
+    },
+    {
+      "category": "models",
+      "file": "README.md",
+      "repo": "22i/minecraft-voxel-blender-models",
+      "commit": "51527b4b5bceeb7a6de7e1f89edcccc87d904662",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/22i/minecraft-voxel-blender-models/51527b4b5bceeb7a6de7e1f89edcccc87d904662/README.md",
+      "sha256": "a4a216decb304998992d61ee7b7114287ac92bb59ea59464707fd7b55264ddd8",
+      "bytes": 7841
+    },
+    {
+      "category": "models",
+      "file": "pig.blend",
+      "repo": "22i/minecraft-voxel-blender-models",
+      "commit": "51527b4b5bceeb7a6de7e1f89edcccc87d904662",
+      "path": "models/pig.blend",
+      "url": "https://raw.githubusercontent.com/22i/minecraft-voxel-blender-models/51527b4b5bceeb7a6de7e1f89edcccc87d904662/models/pig.blend",
+      "sha256": "5525bbfd15aff91a7266b11ffe83e87669a4d5f8392346f8fc50c8e26140bd68",
+      "bytes": 498372
+    },
+    {
+      "category": "models",
+      "file": "cow+mooshroom.blend",
+      "repo": "22i/minecraft-voxel-blender-models",
+      "commit": "51527b4b5bceeb7a6de7e1f89edcccc87d904662",
+      "path": "models/cow+mooshroom.blend",
+      "url": "https://raw.githubusercontent.com/22i/minecraft-voxel-blender-models/51527b4b5bceeb7a6de7e1f89edcccc87d904662/models/cow%2Bmooshroom.blend",
+      "sha256": "2f0ea7b2c416cd626b3b3cbf0d31fc777cbc99e5074987af7962669e2f3a3c58",
+      "bytes": 572448
+    },
+    {
+      "category": "models",
+      "file": "chicken.blend",
+      "repo": "22i/minecraft-voxel-blender-models",
+      "commit": "51527b4b5bceeb7a6de7e1f89edcccc87d904662",
+      "path": "models/chicken.blend",
+      "url": "https://raw.githubusercontent.com/22i/minecraft-voxel-blender-models/51527b4b5bceeb7a6de7e1f89edcccc87d904662/models/chicken.blend",
+      "sha256": "bff1b4f9adde5e6ccd2ab6882a0b97fa3105e212dd51417cf1e789c7461a83bd",
+      "bytes": 581916
+    },
+    {
+      "category": "models",
+      "file": "creeper.blend",
+      "repo": "22i/minecraft-voxel-blender-models",
+      "commit": "51527b4b5bceeb7a6de7e1f89edcccc87d904662",
+      "path": "models/creeper.blend",
+      "url": "https://raw.githubusercontent.com/22i/minecraft-voxel-blender-models/51527b4b5bceeb7a6de7e1f89edcccc87d904662/models/creeper.blend",
+      "sha256": "be81cb37668e9162d69ea70d901cde908331f95dcbaac978a051c26e2d540f0c",
+      "bytes": 534948
+    },
+    {
+      "category": "models",
+      "file": "sheep.blend",
+      "repo": "22i/minecraft-voxel-blender-models",
+      "commit": "51527b4b5bceeb7a6de7e1f89edcccc87d904662",
+      "path": "models/sheep.blend",
+      "url": "https://raw.githubusercontent.com/22i/minecraft-voxel-blender-models/51527b4b5bceeb7a6de7e1f89edcccc87d904662/models/sheep.blend",
+      "sha256": "7d08e9f5f85b16ee08402645978656ea2ce48bdfc7d312a00de8dd680db8cddb",
+      "bytes": 504540
+    },
+    {
+      "category": "models",
+      "file": "spider.blend",
+      "repo": "22i/minecraft-voxel-blender-models",
+      "commit": "51527b4b5bceeb7a6de7e1f89edcccc87d904662",
+      "path": "models/spider.blend",
+      "url": "https://raw.githubusercontent.com/22i/minecraft-voxel-blender-models/51527b4b5bceeb7a6de7e1f89edcccc87d904662/models/spider.blend",
+      "sha256": "634f91b11c59fc73619be396990bb8a10addb9d3e7131deb1b20c389f5675d64",
+      "bytes": 517376
+    },
+    {
+      "category": "sky",
+      "file": "LICENSE.md",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/LICENSE.md",
+      "sha256": "ccf0e8ce183761bf82700126cc45a4e907b2cede024e65e3fef5c2338b9b7063",
+      "bytes": 18625
+    },
+    {
+      "category": "sky",
+      "file": "README.md",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/README.md",
+      "sha256": "4528feea41eb9d324f1fe7aca046471a32db60cd071c4e0b954555be56da8aba",
+      "bytes": 3459
+    },
+    {
+      "category": "sky",
+      "file": "cloudbox_east.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/cloudbox_east.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/cloudbox_east.png",
+      "sha256": "237190be0e85969ab4097f6a39de502f019b129caca67fcfc4d6f4c69eadd7ec",
+      "bytes": 3945
+    },
+    {
+      "category": "sky",
+      "file": "cloudbox_west.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/cloudbox_west.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/cloudbox_west.png",
+      "sha256": "86fec0853be4b821e4a11d406d08ea0769d45de01f23ee796c8a2152d22a3461",
+      "bytes": 3894
+    },
+    {
+      "category": "sky",
+      "file": "cloudbox_top.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/cloudbox_top.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/cloudbox_top.png",
+      "sha256": "4a36a6e1967f98a0b96de7832488f6dc17c57f64b14aab7085aafcfb953ac319",
+      "bytes": 235
+    },
+    {
+      "category": "sky",
+      "file": "cloudbox_bottom.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/cloudbox_bottom.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/cloudbox_bottom.png",
+      "sha256": "b2cc8690879e0df7ed807e5d82c74d0392509d65eadc65b340a63588d9aadea2",
+      "bytes": 235
+    },
+    {
+      "category": "sky",
+      "file": "cloudbox_south.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/cloudbox_south.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/cloudbox_south.png",
+      "sha256": "f871f88907b4e10357266635bb71d8d55ff4b804470fc886967bee1598b2038c",
+      "bytes": 4208
+    },
+    {
+      "category": "sky",
+      "file": "cloudbox_north.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/cloudbox_north.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/cloudbox_north.png",
+      "sha256": "886542d391e808a32a6a51ece78ddb34f6e75825c287ccec433b627004c30691",
+      "bytes": 5745
+    },
+    {
+      "category": "sky",
+      "file": "nightbox_east.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/nightbox_east.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/nightbox_east.png",
+      "sha256": "068db2131f324013b8d881d230b1dc50f57e6c397387bd9f4a3df4bc8d00165b",
+      "bytes": 3942
+    },
+    {
+      "category": "sky",
+      "file": "nightbox_west.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/nightbox_west.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/nightbox_west.png",
+      "sha256": "ade4dc694740cfeadae4a83a0991e7e2f1d798713e3a50883612f0ec3ee97dd8",
+      "bytes": 3894
+    },
+    {
+      "category": "sky",
+      "file": "nightbox_top.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/nightbox_top.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/nightbox_top.png",
+      "sha256": "9e719a924c9710a763109acc8e535643828f84b3f03b8f391d6041b21d4c2e91",
+      "bytes": 221
+    },
+    {
+      "category": "sky",
+      "file": "nightbox_bottom.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/nightbox_bottom.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/nightbox_bottom.png",
+      "sha256": "1cf03d80194bca62bdfbf0af7fe7768ff159add0cc7c6c11825a898e23d934e4",
+      "bytes": 235
+    },
+    {
+      "category": "sky",
+      "file": "nightbox_south.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/nightbox_south.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/nightbox_south.png",
+      "sha256": "0882218cb7c80a46f95c428837c2f4e4b15dbb12d2593f9cd2fff3a692047b4d",
+      "bytes": 4196
+    },
+    {
+      "category": "sky",
+      "file": "nightbox_north.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/nightbox_north.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/nightbox_north.png",
+      "sha256": "d5b6165c5adbf3b6aa4843b661139391669cd14e18f3b1ced080c5f8b5b4c4fb",
+      "bytes": 5512
+    },
+    {
+      "category": "sky",
+      "file": "sky1.json",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/sky1.json",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/sky1.json",
+      "sha256": "c884c3b70bab18ce85b7288c1c5a122e450fcff5964383aebdff12cee25ec216",
+      "bytes": 855
+    },
+    {
+      "category": "sky",
+      "file": "sky2.json",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/fabricskyboxes/sky/sky2.json",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/sky2.json",
+      "sha256": "1fda77b96a09836e333ed8b67fa656c6b21272ac215ccf065ea9e1b5b90c154d",
+      "bytes": 846
+    },
+    {
+      "category": "sky",
+      "file": "sun.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/minecraft/textures/environment/sun.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/minecraft/textures/environment/sun.png",
+      "sha256": "6da297b7fa378ecfe59f3447d1c85a627f91f30c25cf8e0a67158dacc19c0736",
+      "bytes": 376
+    },
+    {
+      "category": "sky",
+      "file": "moon_phases.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/minecraft/textures/environment/moon_phases.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/minecraft/textures/environment/moon_phases.png",
+      "sha256": "c557b32a48957bd0f4e66629495efa6e833b5448d2cbb5319f007632f72ff913",
+      "bytes": 1651
+    },
+    {
+      "category": "sky",
+      "file": "clouds.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/minecraft/textures/environment/clouds.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/minecraft/textures/environment/clouds.png",
+      "sha256": "570a7fbc556410e101c4366f0ac5f0a06440f6cfd929b3d8bb7268d6a4e344d2",
+      "bytes": 5454
+    },
+    {
+      "category": "mobs",
+      "file": "LICENSE",
+      "repo": "VoxeLibre/VoxeLibre",
+      "commit": "4492ce6ff8d856daa4567abe2ea689f4e7a39842",
+      "path": "mods/ENTITIES/mobs_mc/LICENSE",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/mods/ENTITIES/mobs_mc/LICENSE",
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+      "bytes": 35141
+    },
+    {
+      "category": "mobs",
+      "file": "LICENSE-media.md",
+      "repo": "VoxeLibre/VoxeLibre",
+      "commit": "4492ce6ff8d856daa4567abe2ea689f4e7a39842",
+      "path": "mods/ENTITIES/mobs_mc/LICENSE-media.md",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/mods/ENTITIES/mobs_mc/LICENSE-media.md",
+      "sha256": "bee9b7368e4c6b15734463be19e72ccbf85ede1266c4311359dee41a8eb13326",
+      "bytes": 15528
+    },
+    {
+      "category": "mobs",
+      "file": "README.md",
+      "repo": "VoxeLibre/VoxeLibre",
+      "commit": "4492ce6ff8d856daa4567abe2ea689f4e7a39842",
+      "path": "mods/ENTITIES/mobs_mc/README.md",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/mods/ENTITIES/mobs_mc/README.md",
+      "sha256": "eee22f21aa48aab70262fc970fe09f71579d99dd997e8c60a8a9986a0c7295a9",
+      "bytes": 1769
+    },
+    {
+      "category": "mobs",
+      "file": "mobs_mc_pig.png",
+      "repo": "VoxeLibre/VoxeLibre",
+      "commit": "4492ce6ff8d856daa4567abe2ea689f4e7a39842",
+      "path": "textures/mobs_mc_pig.png",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mobs_mc_pig.png",
+      "sha256": "1caa936aeeb1e0c6de92f496b04b428f91168f3643564911a43bd988647aaf3c",
+      "bytes": 552
+    },
+    {
+      "category": "mobs",
+      "file": "mobs_mc_cow.png",
+      "repo": "VoxeLibre/VoxeLibre",
+      "commit": "4492ce6ff8d856daa4567abe2ea689f4e7a39842",
+      "path": "textures/mobs_mc_cow.png",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mobs_mc_cow.png",
+      "sha256": "832bafce06a10a80bfc72c5e65fa1016bff206923bf7123b9978b0acb20b3920",
+      "bytes": 736
+    },
+    {
+      "category": "mobs",
+      "file": "mobs_mc_chicken.png",
+      "repo": "VoxeLibre/VoxeLibre",
+      "commit": "4492ce6ff8d856daa4567abe2ea689f4e7a39842",
+      "path": "textures/mobs_mc_chicken.png",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mobs_mc_chicken.png",
+      "sha256": "5f52cda632525e0e295e5351162e1a97c2c0fe965b2e06271786790399b027eb",
+      "bytes": 655
+    },
+    {
+      "category": "mobs",
+      "file": "mobs_mc_sheep.png",
+      "repo": "VoxeLibre/VoxeLibre",
+      "commit": "4492ce6ff8d856daa4567abe2ea689f4e7a39842",
+      "path": "textures/mobs_mc_sheep.png",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mobs_mc_sheep.png",
+      "sha256": "bc473048b40794c29cbeb9800cb59654b7b6779ff5be91ee05975154c8889ad8",
+      "bytes": 1557
+    },
+    {
+      "category": "mobs",
+      "file": "mobs_mc_sheep_fur.png",
+      "repo": "VoxeLibre/VoxeLibre",
+      "commit": "4492ce6ff8d856daa4567abe2ea689f4e7a39842",
+      "path": "textures/mobs_mc_sheep_fur.png",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mobs_mc_sheep_fur.png",
+      "sha256": "8e7e5b28e62ee0e24fe19b69838e6630f81a2fa1bfa4b3a510664e936e951c23",
+      "bytes": 1475
+    },
+    {
+      "category": "mobs",
+      "file": "mobs_mc_spider.png",
+      "repo": "VoxeLibre/VoxeLibre",
+      "commit": "4492ce6ff8d856daa4567abe2ea689f4e7a39842",
+      "path": "textures/mobs_mc_spider.png",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mobs_mc_spider.png",
+      "sha256": "8c7fa5d68790458c6cb28886746fcb120f9289ef92081fbcdb42e3fe0b266dc2",
+      "bytes": 801
+    },
+    {
+      "category": "mobs-ce",
+      "file": "creeper.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/minecraft/textures/entity/creeper/creeper.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/minecraft/textures/entity/creeper/creeper.png",
+      "sha256": "082025c02ffa260233295218fd8843723e746dbf1a529e1af82f230068b58317",
+      "bytes": 745
+    },
+    {
+      "file": "moon_phases.png",
+      "url": "https://raw.githubusercontent.com/Faithful-Resource-Pack/Faithful-32x-Java/c1041beb78c0e8417140af65b28baed0f526eec0/assets/minecraft/textures/environment/moon_phases.png",
+      "repo": "Faithful-Resource-Pack/Faithful-32x-Java",
+      "commit": "c1041beb78c0e8417140af65b28baed0f526eec0",
+      "sha256": "0d409831798ada34a995ae5a034b8b418e4b0d8d2c9ddf280bdc5ec4e8cc30f8"
+    },
+    {
+      "file": "sun.png",
+      "url": "https://raw.githubusercontent.com/Faithful-Resource-Pack/Faithful-32x-Java/c1041beb78c0e8417140af65b28baed0f526eec0/assets/minecraft/textures/environment/sun.png",
+      "repo": "Faithful-Resource-Pack/Faithful-32x-Java",
+      "commit": "c1041beb78c0e8417140af65b28baed0f526eec0",
+      "sha256": "1d5a4f8239f3ec96620306f9081e94d6a8910d28363ff51791aa7260030a6a76"
+    },
+    {
+      "file": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/Faithful-Resource-Pack/Faithful-32x-Java/c1041beb78c0e8417140af65b28baed0f526eec0/LICENSE.txt",
+      "repo": "Faithful-Resource-Pack/Faithful-32x-Java",
+      "commit": "c1041beb78c0e8417140af65b28baed0f526eec0",
+      "sha256": "3526ffe2fc0bdb57ec9fdf227f7de72cb15df9ccc940f79d2e60bafe5d3254c6"
+    },
+    {
+      "file": "nightbox2_east.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/nightbox2_east.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "sha256": "f7dcd5208bb7225683da636187039d0ddc7886909cc75a5fca9729a1362df4d3"
+    },
+    {
+      "file": "nightbox2_west.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/nightbox2_west.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "sha256": "ad4a2f13bf3f9a7876ea12423bc3db6399428652e524478164106c8413e3a795"
+    },
+    {
+      "file": "nightbox2_top.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/nightbox2_top.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "sha256": "3aff8ae6286a2065f4256e5c460c36ce02385399c8187259f072c4b5c14aba2a"
+    },
+    {
+      "file": "nightbox2_bottom.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/nightbox2_bottom.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "sha256": "ad7b4c69d77922f2cc16cb7d6de12ee567208340d469b69242ea6b69dd31f0dd"
+    },
+    {
+      "file": "nightbox2_south.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/nightbox2_south.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "sha256": "beb645a6e45e2b93d327512dcc4503b61f5a8517f33724ad7a189a18e107e0e0"
+    },
+    {
+      "file": "nightbox2_north.png",
+      "url": "https://raw.githubusercontent.com/Athemis/PixelPerfectionCE/28e38cab7c1f03f86364ef704f705bebcc13cb3d/assets/fabricskyboxes/sky/nightbox2_north.png",
+      "repo": "Athemis/PixelPerfectionCE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "sha256": "2128a3848a16e9f4b988aa022216580be53639cdb11c14510261c39d8b4f3fc7"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "review": "Firmas PNG/GLB, JSON glTF y referencias locales revisadas; no se ejecutó código descargado. Sin motor antivirus accesible: esto no certifica ausencia de malware.",
+  "sources": [
+    {
+      "asset": "Allay",
+      "author": "RilyGames",
+      "source": "https://sketchfab.com/3d-models/minecraft-friendly-allay-2ec0604d765d4067801b4f267c66d600",
+      "redistribution": "https://canyouname.com/models/minecraft-sketchfab-mobs/allay/scene.gltf",
+      "license": "CC BY 4.0",
+      "changes": "Material Lambert, escala, trayectoria y pose de alas local sobre geometría descargada."
+    },
+    {
+      "asset": "Bee",
+      "author": "JohnElkes",
+      "source": "https://sketchfab.com/3d-models/minecraft-bee-b682bc6061934659ace1a3e50242fb0d",
+      "license": "CC BY 4.0",
+      "changes": "Material Lambert, escala y ruta. Conserva el clip de vuelo descargado."
+    },
+    {
+      "asset": "SUV",
+      "author": "Toolbench",
+      "source": "https://toolbenchdev.com/gamedev/cc0-game-assets/low-poly-vehicles-kit/",
+      "license": "CC0",
+      "changes": "Escala, material Lambert y rebote de presentación."
+    },
+    {
+      "asset": "Chest",
+      "author": "Innerscene",
+      "source": "https://www.innerscene.com/tools/library/3d-parts/low-poly-medieval-chest-64fb4948",
+      "license": "CC0",
+      "changes": "Escala, material Lambert y pivote para abrir la tapa."
+    }
+  ],
+  "files": [
+    {
+      "file": "allay/scene.bin",
+      "bytes": 5472,
+      "sha256": "980ca7d57d74d6056ce38494821164f9d9387d97da0f787f4d2a85cb120bdf30"
+    },
+    {
+      "file": "allay/scene.gltf",
+      "bytes": 15234,
+      "sha256": "fc12684daf05a4ebeb2271a66a0c68a1f7e2e2c604cb4b60cb432f84fd019f13"
+    },
+    {
+      "file": "allay/textures/material_0_baseColor.png",
+      "bytes": 235,
+      "sha256": "bbf80dd6735e782d814f90840cdf92ebc860dadd99f42e24a3909f8d43b7970d"
+    },
+    {
+      "file": "allay-license.txt",
+      "bytes": 718,
+      "sha256": "9ebebc679ede09c2088a715ebc3f2aee5e652df1d279b21e031438655566f71a"
+    },
+    {
+      "file": "allay-scene.bin",
+      "bytes": 5472,
+      "sha256": "980ca7d57d74d6056ce38494821164f9d9387d97da0f787f4d2a85cb120bdf30"
+    },
+    {
+      "file": "allay-scene.gltf",
+      "bytes": 15234,
+      "sha256": "fc12684daf05a4ebeb2271a66a0c68a1f7e2e2c604cb4b60cb432f84fd019f13"
+    },
+    {
+      "file": "bee/f.bin",
+      "bytes": 15324,
+      "sha256": "a6694bee31f2b57e8f34e86c075bf24dc2c9052817e5ac8330a368a3a5540377"
+    },
+    {
+      "file": "bee/scene.gltf",
+      "bytes": 41366,
+      "sha256": "6cb1b3a3a68687ed89e448320d2f9eea0a4dd4ecf551df6ba61f02b56aff3408"
+    },
+    {
+      "file": "bee/textures/material_0_baseColor.png",
+      "bytes": 471,
+      "sha256": "6abfcabc7d099a68e91c40b51080979cc331c305c96b1c987dd20526531ed13b"
+    },
+    {
+      "file": "bee-license.txt",
+      "bytes": 676,
+      "sha256": "39f450c4a6d36b50462466831b3dd4771d7fb47cee24ad667c3ae571d868efa9"
+    },
+    {
+      "file": "bee-scene.gltf",
+      "bytes": 41366,
+      "sha256": "6cb1b3a3a68687ed89e448320d2f9eea0a4dd4ecf551df6ba61f02b56aff3408"
+    },
+    {
+      "file": "chest.glb",
+      "bytes": 11616,
+      "sha256": "3fa110c877e1bcd9a1a6e12041fcdd4a32ae440ca8b20f525e2cfb655524b8f8"
+    },
+    {
+      "file": "suv.glb",
+      "bytes": 34216,
+      "sha256": "55374979c2bea739a57f4b24c4710ce7ea3bc1838ab9ae12913047a3d838591e"
+    }
+  ]
+}

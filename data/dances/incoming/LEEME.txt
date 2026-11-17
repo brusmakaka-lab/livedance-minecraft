@@ -1,0 +1,7 @@
+BAILES DE LIVE DANCE
+
+Se incorporaron los seis FBX presentes: Brooklyn Uprock, Twerk, Gangnam Style, Hip Hop nuevo, Samba A y Samba B. Los originales permanecen intactos. Se suman a los cuatro bailes anteriores.
+
+En el estudio: Bailes por evento (arriba del panel derecho). Elegir momento, marcar bailes y Guardar selección. La vista previa permite ver un personaje sin modificar el LIVE.
+
+Para bailes adicionales, dejar aqui los FBX o GLB/GLTF animados originales y sus recursos. Anotar nombre, origen/licencia, BPM o duración, bucle y desplazamiento de raiz en la plantilla CSV. La importacion NO es automatica: hace falta revisar y adaptar el rig y registrar cada baile. No editar los archivos generados public/local-dance-clips.js o public/user-dance-clips.js a mano.

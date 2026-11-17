@@ -1,0 +1,546 @@
+{
+  "source": "E:\\LiveDance\\LiveDance-v0.6.14.1-RowShowPolish\\data-rowshow-polish\\skins",
+  "records": [
+    {
+      "id": "ld-01",
+      "name": "Coral",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#7cddcf",
+      "skinUrl": "/skins/livedance/ld-01.png",
+      "model": "classic",
+      "dance": "hiphop",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "Coral · Campus",
+      "sourceHash": "c11ffabba4b6a341c453a3d7bab1c0e0215a2b7a81232fc727b133068af67f8a",
+      "provenance": [
+        {
+          "originalHash": "0cc970e1c06f07651eba27b26cc7d91c98365a805f54304f25287f8408e879eb",
+          "author": "LiveDance SkinLab",
+          "source": "Fixture original del proyecto",
+          "license": "Diseño propio del proyecto",
+          "importedAt": "2026-10-16T03:14:23.500Z",
+          "alpha": {
+            "outerVisiblePixels": 276,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "c11ffabba4b6a341c453a3d7bab1c0e0215a2b7a81232fc727b133068af67f8a"
+    },
+    {
+      "id": "ld-02",
+      "name": "Nova Rider",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#9faaff",
+      "skinUrl": "/skins/livedance/ld-02.png",
+      "model": "slim",
+      "dance": "rumba",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "Nova · Night rider",
+      "sourceHash": "2de3ed1f6aa5fcdf143ba8435f230628e0908d0807937831d6afb4de38045188",
+      "provenance": [
+        {
+          "originalHash": "0c364e86c191e52b33ab5fefde2da5dacdd1d8f4189d6324129630b131bf9921",
+          "author": "LiveDance SkinLab",
+          "source": "Fixture original del proyecto",
+          "license": "Diseño propio del proyecto",
+          "importedAt": "2026-10-16T03:14:23.515Z",
+          "alpha": {
+            "outerVisiblePixels": 226,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "2de3ed1f6aa5fcdf143ba8435f230628e0908d0807937831d6afb4de38045188"
+    },
+    {
+      "id": "ld-03",
+      "name": "Milo",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#eda7cb",
+      "skinUrl": "/skins/livedance/ld-03.png",
+      "model": "classic",
+      "dance": "twist",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "Milo · Field notes",
+      "sourceHash": "612584e589a4c9a8e077aa9fbadd77587d4ff85b5868b1caaa433fa9bd8cff1a",
+      "provenance": [
+        {
+          "originalHash": "fea12030f00e109eabf5345566631de0315b5a2a9d3cebf65814b609572c5dea",
+          "author": "LiveDance SkinLab",
+          "source": "Fixture original del proyecto",
+          "license": "Diseño propio del proyecto",
+          "importedAt": "2026-10-16T03:14:23.523Z",
+          "alpha": {
+            "outerVisiblePixels": 371,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "612584e589a4c9a8e077aa9fbadd77587d4ff85b5868b1caaa433fa9bd8cff1a"
+    },
+    {
+      "id": "ld-04",
+      "name": "Nico",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#edc58c",
+      "skinUrl": "/skins/livedance/ld-04.png",
+      "model": "classic",
+      "dance": "celebrate",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "nico",
+      "sourceHash": "2885c90e98df728037f3b521943d3aa0a33baecf7e0a4b8002ebc77e1ab75164",
+      "provenance": [
+        {
+          "originalHash": "e3c05b6a3a2db09d9044d149047863652573850f30dc03ceff89941d0f8b4a58",
+          "author": "Messi",
+          "source": "Web",
+          "license": "23",
+          "importedAt": "2026-10-16T08:24:57.262Z",
+          "alpha": {
+            "outerVisiblePixels": 65,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "2885c90e98df728037f3b521943d3aa0a33baecf7e0a4b8002ebc77e1ab75164"
+    },
+    {
+      "id": "ld-05",
+      "name": "Flora",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#7cddcf",
+      "skinUrl": "/skins/livedance/ld-05.png",
+      "model": "classic",
+      "dance": "hiphop",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "flora",
+      "sourceHash": "81abbf82519b13f611768bf8cc682ed14658dd2f385e60ddd24dfa1868d29563",
+      "provenance": [
+        {
+          "originalHash": "1db526d72747561be0249079b2f64ee3fa5ad526cdee5b4d551ad9c7f2b83eff",
+          "author": "Messi",
+          "source": "Web",
+          "license": "23",
+          "importedAt": "2026-10-16T08:25:11.413Z",
+          "alpha": {
+            "outerVisiblePixels": 106,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "81abbf82519b13f611768bf8cc682ed14658dd2f385e60ddd24dfa1868d29563"
+    },
+    {
+      "id": "ld-06",
+      "name": "Crimson",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#9faaff",
+      "skinUrl": "/skins/livedance/ld-06.png",
+      "model": "slim",
+      "dance": "rumba",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "demon-skin-java",
+      "sourceHash": "66dc5109eea4d71a8aefdca5d857bb518389dae82fd974a28dbfdc178c12ecd4",
+      "provenance": [
+        {
+          "originalHash": "f514871c5634465381d85afa9ed6d23ca37c68c5ea8352ce95556cb1bbb9c54b",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:34.824Z",
+          "alpha": {
+            "outerVisiblePixels": 382,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "66dc5109eea4d71a8aefdca5d857bb518389dae82fd974a28dbfdc178c12ecd4"
+    },
+    {
+      "id": "ld-07",
+      "name": "Davi",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#eda7cb",
+      "skinUrl": "/skins/livedance/ld-07.png",
+      "model": "slim",
+      "dance": "twist",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "heydavi-do-minecraft-java-com-a-roupa-rasgada",
+      "sourceHash": "e2e46d22052e6ad452cad0a3046fc435b761042f106bb8448ecf22885899edc9",
+      "provenance": [
+        {
+          "originalHash": "04a4910c6ee7c900d1ee44925d5f1be1651a70274d5978b8483ab5d36802be9f",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:34.856Z",
+          "alpha": {
+            "outerVisiblePixels": 63,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "e2e46d22052e6ad452cad0a3046fc435b761042f106bb8448ecf22885899edc9"
+    },
+    {
+      "id": "ld-08",
+      "name": "Agente",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#edc58c",
+      "skinUrl": "/skins/livedance/ld-08.png",
+      "model": "slim",
+      "dance": "celebrate",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "java-edition-final-secret-op-spy-skin",
+      "sourceHash": "9ac815fa9c8dad58c29fbd3b5156ac198fb905b4bef269b4f297935625c1fcca",
+      "provenance": [
+        {
+          "originalHash": "7c2fc88f90335f029be91e036b0bf5483241127c881ffc86f1fbb3fbb97d90fd",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:34.995Z",
+          "alpha": {
+            "outerVisiblePixels": 499,
+            "convertedPixels": 60
+          }
+        }
+      ],
+      "copiedSha256": "9ac815fa9c8dad58c29fbd3b5156ac198fb905b4bef269b4f297935625c1fcca"
+    },
+    {
+      "id": "ld-09",
+      "name": "Rider",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#7cddcf",
+      "skinUrl": "/skins/livedance/ld-09.png",
+      "model": "slim",
+      "dance": "hiphop",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "java-es-para-hombres",
+      "sourceHash": "32f565d6956a1f94e9c45315257852f62b39b7bbca59ac9fc935416058d431ca",
+      "provenance": [
+        {
+          "originalHash": "41b6fb6b67d6707a2c712114847a3109632b437568326b1194565f7b756dd05a",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:35.051Z",
+          "alpha": {
+            "outerVisiblePixels": 210,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "32f565d6956a1f94e9c45315257852f62b39b7bbca59ac9fc935416058d431ca"
+    },
+    {
+      "id": "ld-10",
+      "name": "Azul",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#9faaff",
+      "skinUrl": "/skins/livedance/ld-10.png",
+      "model": "slim",
+      "dance": "rumba",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "java-skin",
+      "sourceHash": "524cbdad6b30f61affbc3f84476c9d8f5f280151743b9a3a12ffb0c23720b3cb",
+      "provenance": [
+        {
+          "originalHash": "7572a28621b80ee6e81bce62f0648f79675ce9e6e56e17fa3bbb12fc19b7df82",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:35.094Z",
+          "alpha": {
+            "outerVisiblePixels": 319,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "524cbdad6b30f61affbc3f84476c9d8f5f280151743b9a3a12ffb0c23720b3cb"
+    },
+    {
+      "id": "ld-11",
+      "name": "Denim",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#eda7cb",
+      "skinUrl": "/skins/livedance/ld-11.png",
+      "model": "slim",
+      "dance": "twist",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "levis-java-skin-10",
+      "sourceHash": "0d3b306660645a8dcdb0f2303046f04dc73ef135fb95afdba6499b1345d3d9d5",
+      "provenance": [
+        {
+          "originalHash": "49c72a55a38afebfe1a0f2dbc7689ea85d43a0d32c9a0fd8c1ba55dffa6fc778",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:35.123Z",
+          "alpha": {
+            "outerVisiblePixels": 327,
+            "convertedPixels": 1
+          }
+        }
+      ],
+      "copiedSha256": "0d3b306660645a8dcdb0f2303046f04dc73ef135fb95afdba6499b1345d3d9d5"
+    },
+    {
+      "id": "ld-12",
+      "name": "Matthias",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#edc58c",
+      "skinUrl": "/skins/livedance/ld-12.png",
+      "model": "slim",
+      "dance": "celebrate",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "matthias-skin-edition-java",
+      "sourceHash": "28003d5a437df20a2d1ff9bcd873784ee8eaeb4b0c9d43ab5a605e7dcf8d8dce",
+      "provenance": [
+        {
+          "originalHash": "855066108d562449ceb36f4ae986a95e277feb5e55fb02d5a1b84ff893108e77",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:35.160Z",
+          "alpha": {
+            "outerVisiblePixels": 618,
+            "convertedPixels": 7
+          }
+        }
+      ],
+      "copiedSha256": "28003d5a437df20a2d1ff9bcd873784ee8eaeb4b0c9d43ab5a605e7dcf8d8dce"
+    },
+    {
+      "id": "ld-13",
+      "name": "Explorer",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#7cddcf",
+      "skinUrl": "/skins/livedance/ld-13.png",
+      "model": "slim",
+      "dance": "hiphop",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "mi-skin-de-minecraft-java-2",
+      "sourceHash": "1067ef1e17dcecbcb4b16c995240c54e3ca5cb6d98ef7f7301678913e25ded90",
+      "provenance": [
+        {
+          "originalHash": "cb6d7edf017e7b9d467f6d2cd22675c691aa9b519abf3739407aea0e7f16d4ff",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:35.198Z",
+          "alpha": {
+            "outerVisiblePixels": 702,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "1067ef1e17dcecbcb4b16c995240c54e3ca5cb6d98ef7f7301678913e25ded90"
+    },
+    {
+      "id": "ld-14",
+      "name": "Urban",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#9faaff",
+      "skinUrl": "/skins/livedance/ld-14.png",
+      "model": "slim",
+      "dance": "rumba",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "minecraft-skin-java",
+      "sourceHash": "bbb9e252b2beddc1360d240f342df58ef7c9b218e9d823e85f8c6f8d6ca3197d",
+      "provenance": [
+        {
+          "originalHash": "84988c0e5ff237eb494b431ec5062b6b0ce5047444823ac1527b7bdc42744123",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:35.250Z",
+          "alpha": {
+            "outerVisiblePixels": 294,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "bbb9e252b2beddc1360d240f342df58ef7c9b218e9d823e85f8c6f8d6ca3197d"
+    },
+    {
+      "id": "ld-15",
+      "name": "Candy",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#eda7cb",
+      "skinUrl": "/skins/livedance/ld-15.png",
+      "model": "slim",
+      "dance": "twist",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "new-skin-for-java",
+      "sourceHash": "333cede33b5720dd76d4159313d3f0c5b90fb0a05525b6399e95daa12f2f5ee6",
+      "provenance": [
+        {
+          "originalHash": "168dd99cfb38a07c6be2a5e2ebc13b1c12d7a9592a1aa1b34a008b9a750e2b47",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:35.281Z",
+          "alpha": {
+            "outerVisiblePixels": 489,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "333cede33b5720dd76d4159313d3f0c5b90fb0a05525b6399e95daa12f2f5ee6"
+    },
+    {
+      "id": "ld-16",
+      "name": "Violet",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#edc58c",
+      "skinUrl": "/skins/livedance/ld-16.png",
+      "model": "slim",
+      "dance": "celebrate",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "salamakiaeros-purple-skin-minecraft-java-edision",
+      "sourceHash": "47e0ecdd69c6176d88671b65f76f2c7f5e1a233de087411ce779da8d900a0289",
+      "provenance": [
+        {
+          "originalHash": "692970665f5f6510250d33e26eab18f571c7a60cfc34fef01485c42fa831a82a",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:35.307Z",
+          "alpha": {
+            "outerVisiblePixels": 387,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "47e0ecdd69c6176d88671b65f76f2c7f5e1a233de087411ce779da8d900a0289"
+    },
+    {
+      "id": "ld-17",
+      "name": "Night",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#7cddcf",
+      "skinUrl": "/skins/livedance/ld-17.png",
+      "model": "slim",
+      "dance": "hiphop",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "skin-java",
+      "sourceHash": "3d633d4dd4932c85300d31d3e7e6550e0a7d26e46604664230f20a81349058f8",
+      "provenance": [
+        {
+          "originalHash": "b4fb28b3ed94b6408105a3fa0be4627514bda55adb30ca317e8513b2cef4a895",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:35.333Z",
+          "alpha": {
+            "outerVisiblePixels": 526,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "3d633d4dd4932c85300d31d3e7e6550e0a7d26e46604664230f20a81349058f8"
+    },
+    {
+      "id": "ld-18",
+      "name": "Jade",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#9faaff",
+      "skinUrl": "/skins/livedance/ld-18.png",
+      "model": "slim",
+      "dance": "rumba",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "skin-minecraft-java-edition",
+      "sourceHash": "3f2c0fb89410e39307c2123dc8c675500df44bc38dbc68f70e90555b83f57f73",
+      "provenance": [
+        {
+          "originalHash": "07e5a2fb225f551d4de48ef3424a93993e389cbdc26ebee2df127bf3fb468410",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:35.358Z",
+          "alpha": {
+            "outerVisiblePixels": 496,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "3f2c0fb89410e39307c2123dc8c675500df44bc38dbc68f70e90555b83f57f73"
+    },
+    {
+      "id": "ld-19",
+      "name": "Sky",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#eda7cb",
+      "skinUrl": "/skins/livedance/ld-19.png",
+      "model": "slim",
+      "dance": "twist",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "skin-minecraft-java-num3",
+      "sourceHash": "0626a8583ff762968825d038e792076df8b9797c093e5657342b92e66287a535",
+      "provenance": [
+        {
+          "originalHash": "444f3f92d15f4b8dc7226118cccb69052aca5b04703dd348c73367dacf35d540",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:35.383Z",
+          "alpha": {
+            "outerVisiblePixels": 1565,
+            "convertedPixels": 1541
+          }
+        }
+      ],
+      "copiedSha256": "0626a8583ff762968825d038e792076df8b9797c093e5657342b92e66287a535"
+    },
+    {
+      "id": "ld-20",
+      "name": "Amber",
+      "style": "minecraft",
+      "label": "Skin LiveDance",
+      "accent": "#edc58c",
+      "skinUrl": "/skins/livedance/ld-20.png",
+      "model": "slim",
+      "dance": "celebrate",
+      "description": "Skin Minecraft de la biblioteca local de LiveDance.",
+      "sourceName": "skin-minecraft-java-pour-shainez-num6",
+      "sourceHash": "84a4713e63781d842f59f18ff9fc5f8e8d4f27f737d6a0710092a6d4cac72e11",
+      "provenance": [
+        {
+          "originalHash": "30d90dea1bcdcc020878d7ce97c638dbc0737f986d3bb43f67c05637e8a7091a",
+          "author": "berus",
+          "source": "12",
+          "license": "sio",
+          "importedAt": "2026-10-20T07:54:35.412Z",
+          "alpha": {
+            "outerVisiblePixels": 372,
+            "convertedPixels": 0
+          }
+        }
+      ],
+      "copiedSha256": "84a4713e63781d842f59f18ff9fc5f8e8d4f27f737d6a0710092a6d4cac72e11"
+    }
+  ],
+  "scope": "Local user-requested reuse of existing Minecraft skins. Original metadata retained; no new permission or authorship asserted. Spider-Man/Miles and the separately archived restricted skin pack were not copied."
+}

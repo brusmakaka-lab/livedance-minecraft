@@ -1,0 +1,38 @@
+[
+  {
+    "id": "meme-1",
+    "name": "Meme 1",
+    "url": "/assets/local-memes/meme-1.mp4",
+    "sha256": "292698be0770e26ea1ebbea7ac5e9b9b5cacf180941df0d409b26d4c3ee109ac",
+    "bytes": 812438,
+    "source": "Archivo local aportado por el usuario",
+    "key": "none"
+  },
+  {
+    "id": "meme-2",
+    "name": "Meme 2",
+    "url": "/assets/local-memes/meme-2.mp4",
+    "sha256": "0d4af9bfd8b0a3acd8089a8986bb2fc6a34e43d6da8deba130e3aa49dae94ea3",
+    "bytes": 423773,
+    "source": "Archivo local aportado por el usuario",
+    "key": "none"
+  },
+  {
+    "id": "meme-3",
+    "name": "Meme 3",
+    "url": "/assets/local-memes/meme-3.mp4",
+    "sha256": "6df20c3489151e3e832fc1f73a013fc3232bc2bc2c7a6fc75a9c72c5fb1c36a0",
+    "bytes": 5370100,
+    "source": "Archivo local aportado por el usuario",
+    "key": "none"
+  },
+  {
+    "id": "meme-4",
+    "name": "Fustgatitos💨",
+    "url": "/assets/local-memes/meme-4.mp4",
+    "sha256": "7640fb940a8bda4733cb275aa177d7cb4303764365130c5d109cf1bfd9f0af19",
+    "bytes": 1318862,
+    "source": "Archivo local aportado por el usuario",
+    "key": "none"
+  }
+]

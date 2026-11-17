@@ -1,0 +1,21 @@
+{
+  "author": "XSSheep / Pixel Perfection and VoxeLibre contributors",
+  "license": "CC-BY-SA-4.0; see ../village/LEGAL.md",
+  "files": [
+    {
+      "file": "mcl_experience_orb.png",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_experience_orb.png",
+      "sha256": "9ddc52eb57c47af40b7d24a9f72d5d5fbac73d1197783df324f6067bb500a216"
+    },
+    {
+      "file": "mcl_particles_smoke_anim.png",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_particles_smoke_anim.png",
+      "sha256": "7b0b4cf27a164cf7511b48c8ae4640ab2bf9823edaf843ec5d3ba979cdda6e43"
+    },
+    {
+      "file": "mcl_particles_smoke.png",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_particles_smoke.png",
+      "sha256": "7110f9c6de1924b16d6d73ebffaac9c7763e560950aa7a3273d4db5c2efbda00"
+    }
+  ]
+}

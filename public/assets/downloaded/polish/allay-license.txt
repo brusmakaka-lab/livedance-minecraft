@@ -1,0 +1,11 @@
+Model Information:
+* title:	Minecraft Friendly Allay
+* source:	https://sketchfab.com/3d-models/minecraft-friendly-allay-2ec0604d765d4067801b4f267c66d600
+* author:	RilyGames (https://sketchfab.com/RilyGame)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Minecraft Friendly Allay" (https://sketchfab.com/3d-models/minecraft-friendly-allay-2ec0604d765d4067801b4f267c66d600) by RilyGames (https://sketchfab.com/RilyGame) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

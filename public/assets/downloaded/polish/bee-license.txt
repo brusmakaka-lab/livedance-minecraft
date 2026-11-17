@@ -1,0 +1,11 @@
+Model Information:
+* title:	minecraft bee
+* source:	https://sketchfab.com/3d-models/minecraft-bee-b682bc6061934659ace1a3e50242fb0d
+* author:	JohnElkes (https://sketchfab.com/JohnElkes)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "minecraft bee" (https://sketchfab.com/3d-models/minecraft-bee-b682bc6061934659ace1a3e50242fb0d) by JohnElkes (https://sketchfab.com/JohnElkes) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

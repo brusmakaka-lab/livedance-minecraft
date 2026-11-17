@@ -1,0 +1,9 @@
+import {chromium} from '@playwright/test';import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
+const out=path.resolve('test-results/conexion-provider'),browser=await chromium.launch({channel:'msedge',headless:true}),p=await browser.newPage({viewport:{width:1440,height:1080}}),errors=[];p.on('pageerror',e=>errors.push(e.message));
+try{
+ await p.goto('http://127.0.0.1:3000/estudio');await p.waitForSelector('#provider-status');await p.waitForFunction(()=>!document.querySelector('#provider-status').textContent.includes('Comprobando'));
+ const frame=await(await p.waitForSelector('#preview')).contentFrame();await frame.waitForFunction(()=>window.__LIVE_DANCE__?.inspect().ready&&window.__LIVE_DANCE__.inspect().connected,null,{timeout:60000});
+ await p.locator('.left-panel').evaluate(e=>e.scrollTop=0);await p.screenshot({path:path.join(out,'02-estudio-real-configurado.png')});
+ const h=await(await fetch('http://127.0.0.1:3000/health')).json();assert.equal(h.version,'1.18.0');assert.equal(h.provider.configured,true);assert.equal(h.lastError.code,'tls_date');assert.deepEqual(errors,[]);
+ const result={status:'PASS',version:h.version,connectedToTikTok:h.connected,provider:h.provider,paused:h.paused,channel:h.username,roster:h.avatars,panelMessage:await p.locator('#provider-status').innerText(),connectionMessage:await p.locator('#room-status').innerText(),frame:await frame.evaluate(()=>{const s=window.__LIVE_DANCE__.inspect();return {ready:s.ready,connectedToLocalServer:s.connected,frames:s.frameCount};}),errors,scope:'Lectura del servidor real actualizado. El visor funciona localmente; TikTok sigue bloqueado por fecha del certificado HTTPS.'};await fs.writeFile(path.join(out,'startup-review.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+}finally{await browser.close();}

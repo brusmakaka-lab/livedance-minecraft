@@ -1,0 +1,79 @@
+{
+  "commit": "4492ce6ff8d856daa4567abe2ea689f4e7a39842",
+  "author": "XSSheep / Pixel Perfection and VoxeLibre contributors; cherry tree textures by Nova_Wostra and EmoryNB",
+  "license": "CC BY-SA 4.0; detailed attribution retained in ../village/LEGAL.md",
+  "files": [
+    {
+      "file": "mcl_core_grass_block_top.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_core_grass_block_top.png",
+      "sha256": "f30b371b0536966c9b0b8b0e3d1943f8305383109f88d84b0f9df14e3a33f11f",
+      "bytes": 172
+    },
+    {
+      "file": "default_leaves.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/default_leaves.png",
+      "sha256": "b7678d51990bc8686cd3309a57c25c8bcb4e6cfdbc2ca7ea7d54c3eeae82dda5",
+      "bytes": 210
+    },
+    {
+      "file": "mcl_cherry_blossom_leaves.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_cherry_blossom_leaves.png",
+      "sha256": "1bcfda0c4710460853ac15567f445fe3b1e5d08091bd439f723e02766dc61398",
+      "bytes": 341
+    },
+    {
+      "file": "default_sand.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/default_sand.png",
+      "sha256": "0710fe5e8f194c2037ec792024e00894d7e0d149710d715caa352c6e3a153488",
+      "bytes": 181
+    },
+    {
+      "file": "mcl_core_water_source_animation.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_core_water_source_animation.png",
+      "sha256": "e224f909379dab19e4fc0472c59a1f69890bf9d6ec610f44cec95dbe62d408ab",
+      "bytes": 551
+    },
+    {
+      "file": "mcl_bells_bell_side.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_bells_bell_side.png",
+      "sha256": "48e211a50357ec01e14ede07f0a35785572d78c8a2f34bd25888bdad9868e902",
+      "bytes": 681
+    },
+    {
+      "file": "mcl_bells_bell_top.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_bells_bell_top.png",
+      "sha256": "8e7bbf718b9f8ad2bdf04be318a1ef70cf5564771040dbe526a3eb68f8e524f2",
+      "bytes": 653
+    },
+    {
+      "file": "mcl_bells_bell_bottom.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_bells_bell_bottom.png",
+      "sha256": "7ecbe2462cb0d968f6f88b3690c46bad63b9c23e3bd6b7b5617fdce8bb20814a",
+      "bytes": 746
+    },
+    {
+      "file": "lantern.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/lantern.png",
+      "sha256": "8d445ce8026731dbe7f88bf88aa0f769e8dbdc8ae10cd0ef72f2877b4dbfc983",
+      "bytes": 161
+    },
+    {
+      "file": "lantern_top.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/lantern_top.png",
+      "sha256": "f5a6c84b19f14d5fbc56febdf2a1f32813bb7ce37555e35aea2bbc6aaf2672ec",
+      "bytes": 96
+    },
+    {
+      "file": "lantern_bottom.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/lantern_bottom.png",
+      "sha256": "d534ff3accc563564df3aba2f9f3915b819326643509fce19bea8f54de9e9b9a",
+      "bytes": 142
+    },
+    {
+      "file": "mcl_lanterns_lantern.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_lanterns_lantern.png",
+      "sha256": "d0e75231228a69f61b823130fbbb6fa1183663e5cc63a430de5cf428f89e0fb4",
+      "bytes": 246
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "source": "E:/LiveDance/LiveDance-v0.6.14.1-RowShowPolish",
+  "files": [
+    {
+      "path": "public/integration/dance-catalog.json",
+      "sha256": "8e24d1f1785c8aa744ab4c12dccca687a69907c397a61949dbd01a61a44f99c1"
+    },
+    {
+      "path": "public/integration/adapted-clips.json",
+      "sha256": "5ba89bdb7b2ee66aaece064677af5204d10e5905be98024d832845f59f617240"
+    }
+  ],
+  "jointOrder": [
+    "hips",
+    "waist",
+    "head",
+    "rightArm",
+    "leftArm",
+    "rightElbow",
+    "leftElbow",
+    "rightLeg",
+    "leftLeg",
+    "rightKnee",
+    "leftKnee"
+  ],
+  "clips": [
+    {
+      "id": "twist",
+      "sourceClip": "MixamoTwistDanceLoop",
+      "sourceDuration": 9.433333396911621,
+      "beats": 16,
+      "samples": 228
+    },
+    {
+      "id": "rumba",
+      "sourceClip": "MixamoRumbaDancingLoop",
+      "sourceDuration": 2.366666555404663,
+      "beats": 4,
+      "samples": 58
+    },
+    {
+      "id": "hiphop",
+      "sourceClip": "MixamoHipHopDancing2Loop",
+      "sourceDuration": 4.4666666984558105,
+      "beats": 8,
+      "samples": 109
+    },
+    {
+      "id": "celebrate",
+      "sourceClip": "MixamoDance2Loop",
+      "sourceDuration": 6.566666603088379,
+      "beats": 12,
+      "samples": 159
+    }
+  ],
+  "adaptation": "24 samples/s, original quaternion rotations, canonical hip pivot and leg lengths, bounded in-place translation, foot floor correction, six-sample loop closure. No models, textures or FBX copied. Original LiveDance files are read only.",
+  "scope": "Embedded private local project use; the source animations are identified as Mixamo in the existing library. This metadata does not grant additional redistribution rights."
+}

@@ -1,0 +1,129 @@
+{
+  "repository": "https://github.com/VoxeLibre/VoxeLibre",
+  "commit": "4492ce6ff8d856daa4567abe2ea689f4e7a39842",
+  "schematics": {
+    "author": "MysticTempest / VoxeLibre",
+    "license": "CC-BY-SA-4.0"
+  },
+  "textures": {
+    "author": "XSSheep / Pixel Perfection and VoxeLibre contributors",
+    "license": "CC-BY-SA-4.0; see LEGAL.md"
+  },
+  "conversion": "Live Dance: MTS decompression, exposed faces, cuboids for slabs/stairs/doors/panes/fences; original layout retained. No downloaded code executed. Interior workstation details simplified.",
+  "files": [
+    {
+      "file": "default_cobble.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/default_cobble.png",
+      "sha256": "baf23e5753c440397ab20c4d5a3b336266e3d2477be3cb1c238685804c1fea57",
+      "bytes": 210
+    },
+    {
+      "file": "default_wood.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/default_wood.png",
+      "sha256": "275c8d25b28eea48c862ad7539690060c0693881e4becd9de0b1398b165ab1b2",
+      "bytes": 200
+    },
+    {
+      "file": "default_tree.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/default_tree.png",
+      "sha256": "cfed4aa80b0eeb97f28c56508fa9308fe336e9ed9f598a0618a7de4d4805366c",
+      "bytes": 211
+    },
+    {
+      "file": "default_tree_top.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/default_tree_top.png",
+      "sha256": "1e6ce5091cce092d46e687485caf5f7bb4a0763068183328bad5b6f7efdc2e4f",
+      "bytes": 221
+    },
+    {
+      "file": "default_glass.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/default_glass.png",
+      "sha256": "9600272c0255d508304f83d2b7f5ae718a1af892ef5763c127954a3222ed57df",
+      "bytes": 153
+    },
+    {
+      "file": "doors_trapdoor.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/doors_trapdoor.png",
+      "sha256": "41daf93a05b7b8c2f67f27c99b86d842535639269c10eac055919b1c0712f707",
+      "bytes": 181
+    },
+    {
+      "file": "mcl_ocean_sea_lantern.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_ocean_sea_lantern.png",
+      "sha256": "5f5fb5dd983c3dd6ff696cad1a5f36d61cf92235a2a4c03e86c07ab1a888e2f4",
+      "bytes": 362
+    },
+    {
+      "file": "default_stone.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/default_stone.png",
+      "sha256": "f741bae514fa506fed3daf9977e629509c730431afe06d9d144c027cc8c17352",
+      "bytes": 188
+    },
+    {
+      "file": "mcl_doors_door_wood_lower.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_doors_door_wood_lower.png",
+      "sha256": "c86ffd6028f8b3a0bc304ece3704122cf0b1510e557c5684e01f706d357f2703",
+      "bytes": 211
+    },
+    {
+      "file": "mcl_doors_door_wood_upper.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_doors_door_wood_upper.png",
+      "sha256": "09591cf5a4cddfd273e5a46cad4a69b6f89daa0c7827193833a90e1e6eeaf68c",
+      "bytes": 210
+    },
+    {
+      "file": "wool_red.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/wool_red.png",
+      "sha256": "743542f93e902a06acd71eb6f1e917d7a266bd61ef52a9aa610053af95e5c2a2",
+      "bytes": 202
+    },
+    {
+      "file": "mcl_core_stonebrick_carved.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mcl_core_stonebrick_carved.png",
+      "sha256": "4ffc41ace436d654f0c30bc0eb4f6a2916f948311c302f4b02bf563a1088b6fa",
+      "bytes": 275
+    },
+    {
+      "file": "default_dirt.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/default_dirt.png",
+      "sha256": "ca53d237c809111c0f1bf2618bd7482e458e8ee880b13cb4dc7e8b6447e5c1b0",
+      "bytes": 172
+    },
+    {
+      "file": "loom_front.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/loom_front.png",
+      "sha256": "89fb5a11e57ea881d3ad59a5c3566af04781c9a561666a6e50b4bef631aa66ec",
+      "bytes": 632
+    },
+    {
+      "file": "default_furnace_front.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/default_furnace_front.png",
+      "sha256": "17f5350e325432bf0396a51896e0830589f0de354bdfbd0aa702c5d6691e3500",
+      "bytes": 257
+    },
+    {
+      "file": "default_torch_on_floor.png",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/default_torch_on_floor.png",
+      "sha256": "cd721e68535e758bc6b306cdd402fb810e54f737bc9a8e9290045b37df722a44",
+      "bytes": 179
+    },
+    {
+      "file": "small_house.mts",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/mods/MAPGEN/mcl_villages/schematics/small_house.mts",
+      "sha256": "32cac1b48d871dcbd04328408c81be8c3d3bba1f2ff17232a6832f8a09856db8",
+      "bytes": 578
+    },
+    {
+      "file": "medium_house.mts",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/mods/MAPGEN/mcl_villages/schematics/medium_house.mts",
+      "sha256": "3d64221495d750ed1d906650641a4ca169a8381cb385f3f479e2edb9d7895641",
+      "bytes": 807
+    },
+    {
+      "file": "lamp.mts",
+      "source": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/mods/MAPGEN/mcl_villages/schematics/lamp.mts",
+      "sha256": "3bbb9404e0aa72ad95dc28aa5a6261134b47c3619ea364adeb44bb16ea249ffd",
+      "bytes": 176
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": "1.15.0",
+  "asset": "Gatito de aura",
+  "sources": [
+    {
+      "file": "cat_baby.blend",
+      "url": "https://raw.githubusercontent.com/22i/minecraft-voxel-blender-models/51527b4b5bceeb7a6de7e1f89edcccc87d904662/models/cat_baby.blend",
+      "bytes": 525136,
+      "sha256": "38c957e9f31b4398b9d5cf07c2afbc2d7feb6d2b470fbe7929ba692ddeae33a2"
+    },
+    {
+      "file": "cat_red.png",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/textures/mobs_mc_cat_red.png",
+      "bytes": 690,
+      "sha256": "a6afde5aa9b75add020f1967bf10749f726ef0e911caf1be011dffbc9fb8b2a7"
+    },
+    {
+      "file": "ocelot.lua",
+      "url": "https://raw.githubusercontent.com/VoxeLibre/VoxeLibre/4492ce6ff8d856daa4567abe2ea689f4e7a39842/mods/ENTITIES/mobs_mc/ocelot.lua",
+      "bytes": 6596,
+      "sha256": "d41354cc92a8a58768d8e860dc8d03ec7f2ec70f8f6d1382d556549230de3dc0"
+    }
+  ],
+  "adaptation": "Malla, UV, esqueleto y marcha importados de 22i; textura naranja de VoxeLibre. Conversión a GLB y paso acompasado a dos pulsos. Dos clones reutilizados.",
+  "modelLicense": "GPL-3.0",
+  "textureLicense": "CC-BY-SA-4.0; créditos VoxeLibre / XSSheep / Pixel Perfection",
+  "files": [
+    {
+      "file": "public/assets/downloaded/mobs/cat.glb",
+      "bytes": 31576,
+      "sha256": "e275a00f0b4c3c6c867ae212cc83661e64c279c8f657581fb48b700f2c89b482"
+    },
+    {
+      "file": "public/aura-companions.js",
+      "bytes": 3125,
+      "sha256": "998ef4d1173a930433c758b4ed0028f1c118e5877e4695542cef4042ae5f9ac8"
+    },
+    {
+      "file": "public/effect-presentation.js",
+      "bytes": 442,
+      "sha256": "4130b0bb76cb449b6579979a02652fd496a245a2a5a5154fd5df71336ef3202a"
+    }
+  ],
+  "review": {
+    "sourceHashesMatch": true,
+    "pngCRC": true,
+    "pngDimensions": [
+      64,
+      32
+    ],
+    "pngDecodes": true,
+    "noTrailingPNGData": true,
+    "embeddedBlenderTexts": 0,
+    "autoExecutionDisabled": true,
+    "downloadedScriptsExecuted": false,
+    "glbVersion": 2,
+    "glbExternalResources": false,
+    "animations": 1,
+    "antivirusAvailable": false,
+    "limitation": "Sin análisis antivirus por firmas. No se certifica ausencia de malware."
+  }
+}

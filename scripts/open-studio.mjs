@@ -1,0 +1,7 @@
+import {launchCapture} from '../lib/capture-launcher.js';
+import {spawn,execFile} from 'node:child_process';import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),url='http://127.0.0.1:3000',health=async()=>{try{return await(await fetch(url+'/health',{signal:AbortSignal.timeout(900)})).json();}catch{return null;}};
+let current=await health();if(current&&path.resolve(current.root||'').toLowerCase()!==root.toLowerCase())throw Error('El puerto 3000 está ocupado por otra aplicación.');
+if(!current){const temp='E:/Codex/Temp/Usuario';fs.mkdirSync(temp,{recursive:true});fs.mkdirSync(path.join(root,'work/logs'),{recursive:true});const log=fs.openSync(path.join(root,'work/logs/live-dance.log'),'a'),child=spawn(process.execPath,['--env-file-if-exists=.env','server.js'],{cwd:root,env:{...process.env,DEMO_MODE:'1',TIKTOK_ENABLED:'0',TEMP:temp,TMP:temp},windowsHide:true,detached:true,stdio:['ignore',log,log]});child.unref();for(let i=0;i<30&&!current;i++){await new Promise(r=>setTimeout(r,200));current=await health();}if(!current)throw Error('No se pudo iniciar Live Dance. Revisá work/logs/live-dance.log.');}
+launchCapture();
+execFile('cmd.exe',['/c','start','','http://127.0.0.1:3000/estudio'],{windowsHide:true});console.log('Live Dance · estudio y captura abiertos. Cuando estés LIVE, pulsá Conectar a TikTok y verificá el estado.');

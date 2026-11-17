@@ -1,0 +1,6 @@
+import fs from 'node:fs/promises';
+const take=async()=>{const h=await(await fetch('http://127.0.0.1:3000/health')).json();return {at:Date.now(),version:h.version,connected:h.connected,status:h.status,avatars:h.avatars,queue:h.arrivals.pendingCount,counts:h.reception.counts,totals:h.contributions.totals,error:h.lastError?.code||null};};
+const first=await take(),snapshots=[first],until=Date.now()+90000;console.log(JSON.stringify({scope:'Observación real sin eventos simulados y sin datos personales.',snapshot:first}));
+while(Date.now()<until){await new Promise(r=>setTimeout(r,10000));const s=await take();snapshots.push(s);console.log(JSON.stringify(s));}
+const last=snapshots.at(-1),delta=Object.fromEntries(Object.keys(last.counts).map(k=>[k,{received:last.counts[k].received-first.counts[k].received,processed:last.counts[k].processed-first.counts[k].processed}]));
+const result={scope:'Observación real de la instancia de producción local, sin inyectar eventos ni enviar mensajes o regalos.',first,last,delta,snapshots};await fs.mkdir('test-results/receive-only-live',{recursive:true});await fs.writeFile('test-results/receive-only-live/live-observation.json',JSON.stringify(result,null,2));console.log(JSON.stringify({finished:true,delta}));

@@ -1,0 +1,44 @@
+{
+  "name": "dance-party-clone",
+  "version": "1.27.0",
+  "description": "Pista interactiva TikTok LIVE con Socket.io, Three.js y skins Minecraft",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test tests/*.test.js",
+    "test:browser": "node scripts/browser-check.mjs",
+    "test:arrivals": "node scripts/arrival-check.mjs",
+    "test:npc": "node scripts/npc-check.mjs",
+    "test:presentation": "node scripts/rows-gifts-check.mjs",
+    "test:arrival-layout": "node scripts/sky-arrival-check.mjs",
+    "test:spotlight": "node scripts/spotlight-check.mjs",
+    "test:coherence": "node scripts/coherence-check.mjs",
+    "test:flow": "node scripts/flow-check.mjs",
+    "test:names": "node scripts/close-names-check.mjs",
+    "test:flags": "node scripts/flags-check.mjs",
+    "test:world": "node scripts/world-check.mjs",
+    "test:ambient": "node scripts/ambient-check.mjs",
+    "test:refinements": "node scripts/refinements-check.mjs",
+    "test:live-presentation": "node scripts/live-dance-check.mjs",
+    "capture": "node scripts/open-capture.mjs",
+    "test:capture": "node scripts/capture-check.mjs",
+    "setup:capture": "node node_modules/electron/install.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.3.0",
+    "socket.io": "^4.8.4",
+    "tiktok-live-connector": "^2.5.0",
+    "tiktok-live-api-sdk": "0.4.0-beta1"
+  },
+  "engines": {
+    "node": ">=22.10.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "electron": "45.2.3"
+  }
+}

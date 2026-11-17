@@ -1,0 +1,8 @@
+{
+  "reference": "320524d6a0576af38530c78b90b7694d.jpg",
+  "referenceSha256": "5eb8e5ca3224167d583b63bf3ef9fdc5655e3386b148ef5487e111dec1845abd",
+  "createdIn": "Blender",
+  "editable": "data/reference-suv.blend",
+  "method": "Modelado geométrico y materiales, por script local a partir de la referencia del usuario. No se extrajo geometría de un video.",
+  "limits": "Aproximación visual; sin precisión CAD ni vinculación oficial con el fabricante."
+}

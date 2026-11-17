@@ -1,0 +1,21 @@
+export function buildAura(THREE,anchor,glowMap,maps={}){
+ const group=new THREE.Group();anchor.add(group);group.visible=false;
+ const disc=new THREE.Mesh(new THREE.PlaneGeometry(3.5,3.5),new THREE.MeshBasicMaterial({map:glowMap,color:'#9fff83',transparent:true,opacity:.75,depthWrite:false,blending:THREE.AdditiveBlending}));disc.rotation.x=-Math.PI/2;disc.position.y=.022;group.add(disc);
+ const rings=[];for(const radius of [.98,1.21]){const r=new THREE.Mesh(new THREE.TorusGeometry(radius,.023,5,72),new THREE.MeshBasicMaterial({color:'#b7ff72',transparent:true,depthWrite:false,blending:THREE.AdditiveBlending}));r.rotation.x=-Math.PI/2;r.position.y=.043;group.add(r);rings.push(r);}
+ const ticks=new THREE.InstancedMesh(new THREE.BoxGeometry(.1,.025,.035),new THREE.MeshBasicMaterial({color:'#d7ffff',transparent:true,opacity:.8}),32),dummy=new THREE.Object3D();for(let i=0;i<32;i++){const a=i*Math.PI/16;dummy.position.set(Math.cos(a)*1.1,.04,Math.sin(a)*1.1);dummy.rotation.y=-a;dummy.updateMatrix();ticks.setMatrixAt(i,dummy.matrix);}group.add(ticks);
+ const beam=new THREE.Mesh(new THREE.CylinderGeometry(.82,1.02,3.2,24,1,true),new THREE.MeshBasicMaterial({color:'#77e8ff',transparent:true,opacity:.1,depthWrite:false,side:THREE.DoubleSide,blending:THREE.AdditiveBlending}));beam.position.y=1.62;group.add(beam);
+ const ribbons=[];for(let side=0;side<2;side++){const pts=[];for(let i=0;i<=48;i++){const a=i/48*Math.PI*3+side*Math.PI;pts.push(new THREE.Vector3(Math.cos(a)*.9,.25+i/48*3.3,Math.sin(a)*.9));}const r=new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts),48,.018,3,false),new THREE.MeshBasicMaterial({color:'#ddff8c',transparent:true,opacity:.7,depthWrite:false,blending:THREE.AdditiveBlending}));group.add(r);ribbons.push(r);}
+ const sparkMap=maps.star||glowMap,geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.BufferAttribute(new Float32Array(56*3),3));
+ const points=new THREE.Points(geometry,new THREE.PointsMaterial({map:sparkMap,color:'#ffffe1',size:.26,alphaTest:.2,transparent:true,opacity:.94,depthWrite:false,blending:THREE.NormalBlending}));group.add(points);
+ const confetti=new THREE.InstancedMesh(new THREE.BoxGeometry(.11,.11,.11),new THREE.MeshBasicMaterial({color:'white'}),28);for(let i=0;i<28;i++)confetti.setColorAt(i,new THREE.Color(['#ffcb61','#f783bc','#8cdbff','#9cffbb'][i%4]));group.add(confetti);
+ function update(t,{active=false,vip=false,rose=false,floating=false,giant=false,roseAge=0,entry=0,burst=0}={}){
+  group.visible=active||entry>0;if(!group.visible)return;
+  const color=rose?'#ff5480':vip?'#6ee7ff':'#acff75';disc.material.color.set(color);disc.material.opacity=rose?.48+Math.sin(t*3)*.05:.4+entry*.3;disc.scale.setScalar(rose?1.2:giant?1.12:1);
+  rings.forEach((r,i)=>{r.material.color.set(color);r.rotation.z=t*(i?-.8:.4);r.scale.setScalar(1+(entry?Math.sin((1-entry)*Math.PI)*.4:Math.sin(t*3)*.035+(rose?.14:giant?.1:0)));});
+  ticks.visible=vip||entry>.1;ticks.rotation.y=t*.2;beam.visible=vip||floating||entry>.1;beam.material.color.set(color);beam.material.opacity=entry>0?.1*entry:floating?.09:.035;
+  ribbons.forEach((r,i)=>{r.visible=vip||floating||rose;r.rotation.y=t*(i?-.8:.65);r.material.color.set(rose?'#ffaccd':vip?'#baffff':'#e3ff8b');r.material.opacity=rose?.22:.7;});
+  points.material.color.set(rose?'#ff4777':giant?'#f8b825':vip?'#4bdeff':'#c6ee43');points.material.size=rose?.30:.26;const particleMap=rose?(maps.magic||sparkMap):sparkMap;if(points.material.map!==particleMap)points.material.map=particleMap;const p=points.geometry.attributes.position;for(let i=0;i<p.count;i++){const a=i*2.399+t*.6,r=.7+(i%4)*.12;p.setXYZ(i,Math.sin(a)*r,(i*.19+t*.85)%3.8,Math.cos(a)*r);}p.needsUpdate=true;
+  confetti.visible=burst>0;if(burst>0){const progress=1-burst;for(let i=0;i<28;i++){const a=i*2.399,r=.4+progress*(1+(i%5)*.22);dummy.position.set(Math.sin(a)*r,Math.max(.04,2.7+(i%4)*.16+progress*1.6-progress*progress*4.8),Math.cos(a)*r);dummy.rotation.set(t+i,t*.7+i,i);dummy.scale.setScalar(Math.min(1,burst*3));dummy.updateMatrix();confetti.setMatrixAt(i,dummy.matrix);}confetti.instanceMatrix.needsUpdate=true;}
+ }
+ return {group,disc,rings,points,sparkMap,sharedTextures:true,update};
+}

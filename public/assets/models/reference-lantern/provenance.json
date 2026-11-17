@@ -1,0 +1,32 @@
+{
+  "model": "Live Dance \u00b7 Blender reconstruction from user supplied lamp reference",
+  "reference": "images.jpg",
+  "referenceSha256": "4f03edc1eba6125ff8d375dd7b908f9462c50539682e45a0b656a80a39b88646",
+  "referenceRedistributed": false,
+  "textures": "VoxeLibre / Pixel Perfection; copied crops in atlas, see ../../downloaded/village/LEGAL.md and ../../downloaded/landscape/provenance.json",
+  "license": "Model and adapted texture atlas: CC BY-SA 4.0",
+  "editable": "data/reference-lantern.blend",
+  "generator": "scripts/model-reference-lantern.py",
+  "dimensions": {
+    "width": 4.16,
+    "height": 6.69,
+    "depth": 1.54
+  },
+  "outputs": [
+    {
+      "file": "atlas.png",
+      "bytes": 3464,
+      "sha256": "222393c884c315c4ff750db69817449962566252083e1cd104347d7bf918a8c2"
+    },
+    {
+      "file": "emission.png",
+      "bytes": 465,
+      "sha256": "f281f1edbe1bbd3037d13c59874c5445bce5b572ca6b0bec010855a2e10565c7"
+    },
+    {
+      "file": "lantern.glb",
+      "bytes": 55268,
+      "sha256": "56934e4810a274ed1fce6bae899e44d1ae46ab5302ef0f0fbb5e4eebfc391b47"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Live Dance · escenario interactivo</title><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/polish.css"><link rel="stylesheet" href="/visual-quality.css">
+ <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+ <main id="stage">
+  <canvas id="canvas3d" aria-label="Escenario 3D interactivo"></canvas><div id="names" aria-hidden="true"></div>
+  <header id="hud"><span class="stage-brand">LIVE DANCE</span><span class="status-pill"><i id="status-dot"></i><span id="status">PREPARANDO…</span><b id="count">0</b></span></header>
+  <div id="hero" hidden><p id="hero-title">SE UNIÓ A LA FIESTA</p><div><span id="hero-face"></span><strong id="hero-name"></strong></div></div>
+  <div id="gift-spotlight" hidden role="status"><span id="gift-kind">🍩 DONUT</span><strong id="gift-owner"></strong><small id="gift-phase"></small></div>
+  <div id="dance-chip"><span class="beat-dot"></span><b id="dance-name">Hip Hop</b><span id="dance-bpm">112 BPM</span><i id="beat-meter"></i></div>
+  <button id="audio-unlock" hidden>♪ Activar música</button>
+  <div id="notice" role="status" hidden></div><div id="paused" hidden>EN PAUSA</div>
+  <div id="empty"><span>LA PISTA ES TUYA</span><h1>Entrá a bailar.</h1><p id="entry-hint">Tu personaje aparece al ingresar al directo.</p></div>
+  <footer id="hint"><small>SUMATE A LA PISTA</small><div class="gift-guide"><span data-kind="skin"><i>💬</i><b>ENTRÁ</b><small>!m · !me · !yo</small></span><span data-kind="aura"><i>🌹</i><b>AURA</b><small>Rosa + gatito</small></span><span data-kind="chat-aura"><i>💬</i><b>CHAT: aura</b><small>Aura roja · en fila</small></span><span data-kind="giant"><i>🍩</i><b>GIGANTE</b><small>Donut</small></span><span data-kind="likes"><i>♥</i><b id="like-guide-step">500 LIKES</b><small>Baile + VIP</small></span></div><small class="follow-invite">SEGUÍ · solo con estelas</small></footer>
+ </main>
+ <script type="importmap">{"imports":{"three":"/vendor/three-0.186.1/three.module.js"}}</script>
+ <script type="module">
+ const q=new URLSearchParams(location.search);
+ import((location.pathname==='/estudio'||q.get('studio')==='1'||q.get('demo')==='1')&&q.get('view')!=='stage'?'/control.js':'/app.js').catch(error=>{document.querySelector('#status').textContent='No se pudo cargar. Revisá la conexión y WebGL.';console.error(error);});
+ </script>
+</body></html>

@@ -1,0 +1,266 @@
+{
+  "scope": "Downloaded data only. No mod, JAR or executable installed or executed.",
+  "antivirus": {
+    "available": false,
+    "note": "No antivirus scanner was available; integrity checks are not an antivirus certification."
+  },
+  "models": [
+    {
+      "file": "22i-GPL-3.0.txt",
+      "bytes": 35141,
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2"
+    },
+    {
+      "file": "blend-inspection.json",
+      "bytes": 6996,
+      "sha256": "9367866a27a039cca51de7bde7502ef4b83c05fcb8b74320c79d977c6ba8503d"
+    },
+    {
+      "file": "ce-farmer.png",
+      "bytes": 1001,
+      "sha256": "be12f8807171ad065b5d4a4b56c5a3a358855bc127983cbbef2bcb918ef41b50"
+    },
+    {
+      "file": "ce-iron-new.png",
+      "bytes": 7646,
+      "sha256": "d5768a6a4f129727eddd41fe145bc8280815ead34c1f12914396994367f44777"
+    },
+    {
+      "file": "ce-iron_golem.png",
+      "bytes": 1387,
+      "sha256": "43bda9dc0d3c9088c66cdc427351c6c6785a96464520192430e88fd13995bbd3"
+    },
+    {
+      "file": "faithful-iron-golem.png",
+      "bytes": 5402,
+      "sha256": "1a4c2126d3da800927647328482471277c7c521f70348b93f5b6877471fd6606"
+    },
+    {
+      "file": "Faithful-LICENSE.txt",
+      "bytes": 4189,
+      "sha256": "3526ffe2fc0bdb57ec9fdf227f7de72cb15df9ccc940f79d2e60bafe5d3254c6"
+    },
+    {
+      "file": "flowers-credit.txt",
+      "bytes": 98,
+      "sha256": "558ade2a1afa7e493606a6fd6dffb05df5bf8b7a66d50ad960ee2ffc225d3c0f"
+    },
+    {
+      "file": "flowers-README.txt",
+      "bytes": 153,
+      "sha256": "6be5da8aebe81503a1579bc2b7e3cc59ec4a8195dff7eaf4336f240ab94f07b9"
+    },
+    {
+      "file": "iron_golem.blend",
+      "bytes": 502172,
+      "sha256": "3d089e141efc382c7185194cc3f83bff3f5ebd6d6e6104ed9cc3c91bc2d3fb2d"
+    },
+    {
+      "file": "iron_golem.lua",
+      "bytes": 6141,
+      "sha256": "f6ed55c0a37d08f3149498d5507ea327dbc4de05f44e838bed36ef14d14a3278"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 34523,
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "file": "mcl_flowers_poppy.png",
+      "bytes": 188,
+      "sha256": "6e08b0b0639a1d016f8737e4806a74b0b2fc18d5564601fbe62f1262a987e431"
+    },
+    {
+      "file": "mobs_mc_iron_golem.png",
+      "bytes": 1243,
+      "sha256": "758d2d02eeab3611f967186bf68d51be716f9527748aeaea97dbdd1e61d5caf0"
+    },
+    {
+      "file": "mobs_mc_villager.png",
+      "bytes": 799,
+      "sha256": "43185e1d6331e9b3581a35d81a9f7bf9ceb03044138f2c4f580e6bc21cde3864"
+    },
+    {
+      "file": "mutant-zombie.json",
+      "bytes": 93073,
+      "sha256": "b5502d27b81dc365efda996a3964f8171d41a1c6341b0e906e4e0ee06a943f27"
+    },
+    {
+      "file": "MutantZombieModel.java",
+      "bytes": 19751,
+      "sha256": "c41cd284ae5445781d2c089ff5c3edcc627cac90d0f0bf9572d881ee4d19341b"
+    },
+    {
+      "file": "mutant_zombie.png",
+      "bytes": 12581,
+      "sha256": "ae9dbfd0bb4d8f40ec3477847d96c9a18fe444815121c97411e69edc3e305419"
+    },
+    {
+      "file": "PixelPerfection-CC-BY-SA-4.0.md",
+      "bytes": 18625,
+      "sha256": "ccf0e8ce183761bf82700126cc45a4e907b2cede024e65e3fef5c2338b9b7063"
+    },
+    {
+      "file": "README.md",
+      "bytes": 17,
+      "sha256": "beb255461cf821d2df91a25857eed04f03b809854aa1eb2fb64a3d54b6dbced1"
+    },
+    {
+      "file": "villager.lua",
+      "bytes": 72175,
+      "sha256": "42b504aef5061b774e1427a9535d345a0577c1ebfc312c71cb9f46ce8931767e"
+    },
+    {
+      "file": "vindicator+evoker+illusioner+villager+baby.blend",
+      "bytes": 878052,
+      "sha256": "939aa0cb13c5d2c8224122a94b8cdb443e95b587c4bf77c4df8880efeb1ed3e4"
+    },
+    {
+      "file": "VoxeLibre-MEDIA.md",
+      "bytes": 15528,
+      "sha256": "bee9b7368e4c6b15734463be19e72ccbf85ede1266c4311359dee41a8eb13326"
+    }
+  ],
+  "sources": [
+    {
+      "name": "22i models",
+      "commit": "51527b4b5bceeb7a6de7e1f89edcccc87d904662",
+      "license": "GPL-3.0",
+      "url": "https://github.com/22i/minecraft-voxel-blender-models"
+    },
+    {
+      "name": "VoxeLibre textures",
+      "commit": "4492ce6ff8d856daa4567abe2ea689f4e7a39842",
+      "license": "See existing VoxeLibre LICENSE.media and Pixel Perfection credits",
+      "url": "https://github.com/VoxeLibre/VoxeLibre"
+    },
+    {
+      "name": "MutantBeasts model and sampled source poses",
+      "commit": "08f0d1156b5fae703e88714fd039ffcee23477a2",
+      "license": "AGPL-3.0-or-later",
+      "url": "https://github.com/Chumbanotz/MutantBeasts"
+    },
+    {
+      "name": "Herobrine skin by Theggabook",
+      "id": 85,
+      "license": "CC BY-SA 3.0",
+      "url": "https://skinsdb.ewig.space/skin/85"
+    },
+    {
+      "name": "Iron golem texture / Faithful Resource Pack",
+      "commit": "c1041beb78c0e8417140af65b28baed0f526eec0",
+      "path": "assets/minecraft/textures/entity/iron_golem/iron_golem.png",
+      "license": "Faithful License v4, July 31 2026",
+      "url": "https://github.com/Faithful-Resource-Pack/Faithful-32x-Java"
+    },
+    {
+      "name": "Villager farmer texture / XSSheep, Pixel Perfection CE",
+      "commit": "28e38cab7c1f03f86364ef704f705bebcc13cb3d",
+      "path": "assets/minecraft/textures/entity/villager/farmer.png",
+      "license": "CC BY-SA 4.0",
+      "url": "https://github.com/Athemis/PixelPerfectionCE"
+    }
+  ],
+  "installedAssets": [
+    {
+      "file": "chicken.glb",
+      "bytes": 22808,
+      "sha256": "d5aebce4cf15cbd3453ec033865b56ae590bcef804846c4d0908007d70e2ce84",
+      "animationClips": 1,
+      "externalResources": false
+    },
+    {
+      "file": "cow.glb",
+      "bytes": 27096,
+      "sha256": "140588bcaa192d45831dc7fa644b78586b67dc7c1dc322f7b8d226f1f351a3e1",
+      "animationClips": 1,
+      "externalResources": false
+    },
+    {
+      "file": "creeper.glb",
+      "bytes": 16620,
+      "sha256": "c4bf78a5b028841a879b9cc7cfb3f7f0619336d46004f0baa0a56f04da56ed48",
+      "animationClips": 1,
+      "externalResources": false
+    },
+    {
+      "file": "iron_golem.glb",
+      "bytes": 27100,
+      "sha256": "3497e55a305c8860b0cf0b66850ee95ada0cfd1554457220a45445e3a4ba44cc",
+      "animationClips": 1,
+      "externalResources": false
+    },
+    {
+      "file": "mutant-zombie.json",
+      "bytes": 107083,
+      "sha256": "51c017062a4ac73eb3780e54086ea4011ac3bef4e97bb16e262fd7169581c1c4"
+    },
+    {
+      "file": "mutant_zombie.png",
+      "bytes": 12581,
+      "sha256": "ae9dbfd0bb4d8f40ec3477847d96c9a18fe444815121c97411e69edc3e305419",
+      "dimensions": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "pig.glb",
+      "bytes": 19440,
+      "sha256": "eacfe238d3f5ade8b96f62c7022bc417c3379c81e97adf2459c5cad2e70e7384",
+      "animationClips": 1,
+      "externalResources": false
+    },
+    {
+      "file": "poppy.png",
+      "bytes": 188,
+      "sha256": "6e08b0b0639a1d016f8737e4806a74b0b2fc18d5564601fbe62f1262a987e431",
+      "dimensions": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "sheep.glb",
+      "bytes": 30620,
+      "sha256": "115edc09431104ae599404a73bcccc16c41d06ecd17f6f84fb0a370871c43343",
+      "animationClips": 1,
+      "externalResources": false
+    },
+    {
+      "file": "spider.glb",
+      "bytes": 34640,
+      "sha256": "c1343b7b9870538069eb4f209aba35e8e66948518a6e20d956121bace4ab603b",
+      "animationClips": 1,
+      "externalResources": false
+    },
+    {
+      "file": "villager.glb",
+      "bytes": 24232,
+      "sha256": "c656166fe84ea672f8b3154caeecc0a1fef50c1daf54c5a2871a03a7d1aa0de3",
+      "animationClips": 1,
+      "externalResources": false
+    }
+  ],
+  "status": "PASS / structural checks; antivirus not available",
+  "version": "1.14.0",
+  "refinements": "Original MutantBeasts walk equations sampled as a loop; original GLB clips sampled in a bounded phase; offering applied from reference quaternion.",
+  "adaptationFiles": [
+    {
+      "file": "ambient-plan.js",
+      "sha256": "9905b8aabbd11680bb80e577015b2de18aca03e198cf1944db018c4160f0570e"
+    },
+    {
+      "file": "ambient-creatures.js",
+      "sha256": "3fd7cda001d779467ca357cad9c925571504a71589295a37eaa318f603c9baf2"
+    },
+    {
+      "file": "ambient-animation.js",
+      "sha256": "b440cf60103ca7113270e99298aaea2843c5419665e40be7a7b0752625bccea5"
+    },
+    {
+      "file": "mutant-model.js",
+      "sha256": "79f534d074637b2f09e24b8686e96f9b619c0b7c97688c4aeb71727418df0747"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Voxel House",
+  "author": "Alex jr",
+  "source": "https://opengameart.org/content/voxel-house",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "archiveSha256": "dcd5ce421e42632acd3e98db5d5ebdf8b3a37e33b2487d651377aa294c3ca667",
+  "conversion": "Original OBJ/MTL/PNG imported in Blender with automatic scripts disabled; GLB export. No modeled replacement."
+}

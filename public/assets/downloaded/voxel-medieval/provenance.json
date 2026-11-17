@@ -1,0 +1,15 @@
+{
+  "name": "Voxel Medieval Kit Free / cottage",
+  "author": "heyheythere",
+  "source": "https://heyheythere.itch.io/voxel-medieval-kit-free",
+  "license": "CC BY 4.0",
+  "archiveSha256": "824dadc2bc708cc91fca8ff798ceadf5df63a07a416f375e67890e15da0ad12e",
+  "files": {
+    "cottage.glb": "f35c949e4fe3540713f568cbed1bee5f025ec70357aa82db21f4b490e882960b",
+    "preview.png": "74836db5c4e4b1727ea6a3fb56be421676f575fac40474e68639012bbf993e39",
+    "LICENSE.txt": "71be06752550ca2dcf210303dbb9475487b9c965d670a134ee8658a54c4e7c6d",
+    "README.txt": "b2fc1628734bce3fb06a56ea180ce4887bbfc9d12361f4e5e71c27b85c1e96e5",
+    "atlas.png": "674cbe49f556ca7ba6264d95ff97e12ad70a97e8fc5b56d2d9f8eab7711b1b59"
+  },
+  "review": "Extracted only cottage GLB, atlas/preview PNG, LICENSE and README. Included Godot code was not extracted or executed. GLB used unchanged except display materials and scale."
+}

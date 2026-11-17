@@ -1,0 +1,5 @@
+import {DANCE_CLIPS as LOCAL_CLIPS} from './dance-library.js';
+export const ROTATION_JOINTS=['hips','waist','head','rightArm','leftArm','rightElbow','leftElbow','rightLeg','leftLeg','rightKnee','leftKnee'];
+export function localFrame(id,beat){const clip=LOCAL_CLIPS[id],p=((beat%clip.beats)+clip.beats)%clip.beats/clip.beats*clip.count,index=Math.floor(p);return {a:clip.frames[index],b:clip.frames[index+1],t:p-index};}
+export function slerpInto(a,b,t,out,offset=0,ao=offset,bo=offset){let dot=0;for(let i=0;i<4;i++)dot+=a[ao+i]*b[bo+i];const sign=dot<0?-1:1;dot=Math.abs(dot);let x=1-t,y=t;if(dot<.9995){const angle=Math.acos(Math.min(1,dot)),s=Math.sin(angle);x=Math.sin((1-t)*angle)/s;y=Math.sin(t*angle)/s}let length=0;for(let i=0;i<4;i++){out[offset+i]=a[ao+i]*x+b[bo+i]*y*sign;length+=out[offset+i]**2}length=Math.sqrt(length)||1;for(let i=0;i<4;i++)out[offset+i]/=length;}
+export function rotationsFor(id,beat,p,out){const {a,b,t}=localFrame(id,beat);for(let j=0;j<11;j++)slerpInto(a,b,t,out,j*4,3+j*4,3+j*4);return out;}

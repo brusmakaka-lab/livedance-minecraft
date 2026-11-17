@@ -1,0 +1,5 @@
+import {DANCE_CATALOG} from './dance-library.js';export {DANCE_CATALOG};
+export const DANCE_EVENTS=[['normal','Pista · baile habitual'],['arrival','Ingreso · después de aterrizar'],['likes','Celebración por likes'],['solo','Solo · likes y follow'],['Rose','Rosa / aura'],['Donut','Gigante'],['VIP','Corona / VIP'],['Float','Flotar']];
+const basic=['twist','rumba','hiphop','celebrate'],known=new Set(DANCE_CATALOG.map(d=>d.id));
+export function defaultDancePools(){return {normal:[...basic],arrival:[],likes:['celebrate'],solo:[...basic],Rose:[],Donut:[],VIP:[],Float:[]};}
+export function validateDancePools(input){if(!input||typeof input!=='object'||Array.isArray(input)||Object.keys(input).some(k=>!DANCE_EVENTS.some(([id])=>id===k)))return null;const out={};for(const [key]of DANCE_EVENTS){const list=input[key];if(!Array.isArray(list)||list.length>DANCE_CATALOG.length||list.some(id=>!known.has(id))||new Set(list).size!==list.length||['normal','likes','solo'].includes(key)&&!list.length)return null;out[key]=[...list];}return out;}

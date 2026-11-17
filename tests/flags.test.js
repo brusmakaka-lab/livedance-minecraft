@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {defaultPresentation,updatePresentation} from '../lib/presentation-state.js';
+test('flag decoration is shared, reversible and strictly boolean without clearing selected camera',()=>{const s=defaultPresentation();assert.equal(s.flags,true);const focused=updatePresentation(s,{focusId:'viewer'},id=>id==='viewer');const off=updatePresentation(focused,{flags:false});assert.equal(off.flags,false);assert.equal(off.camera,'individual');assert.equal(off.focusId,'viewer');assert.equal(off.revision,focused.revision+1);assert.equal(updatePresentation(off,{flags:false}),off);assert.equal(updatePresentation(off,{flags:'false'}),null);assert.equal(updatePresentation(off,{flags:true}).flags,true);});

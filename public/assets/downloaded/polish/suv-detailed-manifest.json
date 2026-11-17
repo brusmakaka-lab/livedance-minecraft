@@ -1,0 +1,21 @@
+{
+  "asset": "SUV de mayor detalle",
+  "author": "Innerscene",
+  "source": "https://www.innerscene.com/tools/library/3d-parts/suv-dc972cab",
+  "download": "https://www.innerscene.com/api/library/suv-dc972cab/download",
+  "license": "CC0-1.0",
+  "file": "suv-detailed.glb",
+  "bytes": 638564,
+  "sha256": "e6a2b224460aeffec6fe87d549251ccb68f8febc19fa80465a39735ed342fd9c",
+  "triangles": 16228,
+  "sourceMeshes": 72,
+  "runtimeMeshes": 9,
+  "changes": [
+    "Agrupación de geometrías estáticas por material; transformaciones horneadas una vez.",
+    "UV sin uso eliminadas en memoria: el archivo fuente no tiene texturas.",
+    "Material Phong y acabado de carrocería oscuro; escala y presentación con rebote."
+  ],
+  "limit": "Modelo genérico sin marca: no es una reproducción exacta del Mercedes-Maybach GLS 600.",
+  "review": "Cabecera GLB, estructura JSON y referencias locales verificadas. Sin código descargado ejecutado; no se certifica un análisis antivirus.",
+  "runtimeMeshesBeforeMerge": 73
+}

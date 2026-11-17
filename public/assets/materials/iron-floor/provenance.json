@@ -1,0 +1,8 @@
+{
+  "source": "User supplied Block_of_Iron_JE4_BE3.png",
+  "referenceSha256": "ea3f128f68e6d00c7054dc22562dba1d6750cd62d862976f243a3769e78eb908",
+  "originalImageUnmodified": true,
+  "usage": "Top-face UV projection into a repeating flat canvas texture; no isometric cubes repeated on the floor",
+  "attribution": "Minecraft block of iron reference supplied by user; Minecraft artwork belongs to Mojang / Microsoft",
+  "tileWorldUnits": 2
+}
